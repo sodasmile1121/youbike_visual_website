@@ -1,7 +1,7 @@
 # YouBike Visual Website
 
 ## 專案概述
-該專案提供各種數據視圖和互動功能，幫助用戶更好地理解和分析自行車使用情況。
+透過製作視覺化網站，發現潛藏在Youbike數據背後的洞見並給予對應建議。
 
 ## 資料集使用
 - **[即時 YouBike 使用數據](https://data.taipei/dataset/detail?id=c6bc8aed-557d-41d5-bfb1-8da24f78f2fb)**：抓取一週站點即時資訊 (2024/9/8~2024/9/14，日->六)，資料每五分鐘更新一次 
