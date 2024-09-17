@@ -4,10 +4,10 @@
 透過製作視覺化網站，發現潛藏在Youbike數據背後的洞見並給予對應建議。
 
 ## 資料集使用
-- **[即時 YouBike 使用數據](https://data.taipei/dataset/detail?id=c6bc8aed-557d-41d5-bfb1-8da24f78f2fb)**：抓取一週站點即時資訊 (2024/9/8~2024/9/14，日->六)，資料每五分鐘更新一次 
-- **[區域人口密度數據](https://data.taipei/dataset/detail?id=08f12111-5856-4f15-bc13-ae14fed5bd9d)**：使用 2024 年最新的區域人口密度資訊 
-- **[見車率數據](https://data.taipei/dataset/detail?id=ba0dafae-043c-4730-b97e-2defd7af766c)**：90% 以上為高見車率；60%~90% 為中見車率；60% 以下為低見車率 
-- **[起迄站點統計資訊](https://data.taipei/dataset/detail?id=c7dbdb7c-6bbd-495a-bd23-49b22defd83e)**：統計不同起迄站的交易次數 
+- **[即時 YouBike 使用數據](https://data.taipei/dataset/detail?id=c6bc8aed-557d-41d5-bfb1-8da24f78f2fb)**：抓取一週站點即時資訊 (2024/9/8~2024/9/14，日~六)，資料每五分鐘更新一次 
+- **[區域人口密度數據](https://data.taipei/dataset/detail?id=08f12111-5856-4f15-bc13-ae14fed5bd9d)**：使用 2024年的區域人口密度資訊 
+- **[見車率數據](https://data.taipei/dataset/detail?id=ba0dafae-043c-4730-b97e-2defd7af766c)**：90% 以上為高見車率；60%~90% 為中見車率；60% 以下為低見車率（更新至2023年底，雖時間點不吻合，但僅一年差距仍具參考價值）
+- **[起迄站點統計資訊](https://data.taipei/dataset/detail?id=c7dbdb7c-6bbd-495a-bd23-49b22defd83e)**：統計不同起迄站的交易次數 （更新至2023年底，雖時間點不吻合，但僅一年差距仍具參考價值）
 
 ## 執行流程
 - **資料前處理：將資料前處理並放置SQLite3 DataBase**: 
