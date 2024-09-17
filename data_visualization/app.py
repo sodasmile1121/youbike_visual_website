@@ -207,7 +207,7 @@ app.layout = html.Div([
         gen_col(f"Total", total),
         gen_col(f"Rent", rent),
         gen_col(f"Return", return_bike),
-        gen_col(f"Ratio", ratio*100),
+        gen_col(f"Ratio", ratio),
     ]),
 
     dbc.Row([
@@ -285,12 +285,19 @@ app.layout = html.Div([
                         center=dict(lat=route_df[['on_stop_lat', 'off_stop_lat']].mean().mean(), lon=route_df[['on_stop_lon', 'off_stop_lon']].mean().mean()),
                         zoom=10.5
                     ),
+                    title={
+                        'text': 'Top 15 Routes', 
+                        'x': 0, 
+                        'font': {
+                            'color': 'white'  
+                        }
+                    },
                     legend=dict(
                         font=dict(color='white')  
                     ),
                     paper_bgcolor='rgba(0,0,0,0)', 
                     plot_bgcolor='rgba(0,0,0,0)',  
-                    margin=dict(l=0, r=0, t=0, b=0)
+                    margin=dict(l=0, r=0, t=40, b=0)
                 )
             },
             style=route_style
@@ -425,7 +432,9 @@ def update_hourly_graph(selected_region, selected_date):
         query = queries['overallHourlyUsage'].format(selected_date=selected_date)
 
     else:
-        query = queries['overallHourlyUsage'].format(selected_region=selected_region, selected_date=selected_date)
+        print(selected_region)
+        query = queries['specificDateHourlyUsage'].format(selected_region=selected_region, selected_date=selected_date)
+        print(query)
     
     hour_df = pd.read_sql_query(query, conn)
     conn.close() 
