@@ -3,6 +3,8 @@
 ## 專案概述
 透過製作視覺化網站，發現潛藏在Youbike數據背後的洞見並給予對應建議。
 
+https://github.com/user-attachments/assets/badd2a68-30f3-4730-b7a7-92ba278f008e
+
 ## 資料集使用
 - **[即時 YouBike 使用數據](https://data.taipei/dataset/detail?id=c6bc8aed-557d-41d5-bfb1-8da24f78f2fb)**：抓取一週站點即時資訊 (2024/9/8~2024/9/14，日~六)，資料每五分鐘更新一次 
 - **[區域人口密度數據](https://data.taipei/dataset/detail?id=08f12111-5856-4f15-bc13-ae14fed5bd9d)**：使用 2024年的區域人口密度資訊 
