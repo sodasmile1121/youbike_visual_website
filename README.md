@@ -14,7 +14,7 @@
   - 抓取資料：data_engineering/data_retrieval.py
   - 清整資料：data_engineering/data_cleaning.sql
 - **資料分析：連接SQLite3執行查詢**: 
-  - 分析資料：data_visualization/queries.sql
+  - 分析資料：data_analysis/queries.sql
 - **資料視覺化：使用Python Dash**: 
   - 建置網站主程式：data_visualization/app.py
   - 細調呈現樣式：data_visualization/styles.py

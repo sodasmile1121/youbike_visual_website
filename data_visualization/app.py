@@ -23,7 +23,7 @@ def read_sql_queries(file_path):
             queries[query_name] = query_text
     return queries
 
-queries = read_sql_queries('queries.sql')
+queries = read_sql_queries('../data_analysis/queries.sql')
 
 # 輸入查詢抓取對應資料
 def get_data(string):
